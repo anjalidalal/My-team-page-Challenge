@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Devchallenges</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      .crew {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+      }
+      .heading {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: uppercase;
+      }
+      .content {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        padding: 10px 0px;
+      }
+      img {
+        width: 130px;
+        height: 200px;
+      }
+      .image {
+        position: absolute;
+      }
+      .side {
+        position: relative;
+        transform: rotate(90deg);
+        left: 72px;
+        top: -152px;
+        font-family: PT Serif;
+        font-style: normal;
+        font-size: 8px;
+        text-transform: uppercase;
+      }
+      #content {
+        padding: 30px 0px;
+      }
+      .tag {
+        position: relative;
+        top: -30px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+      .article-1,
+      .article-2,
+      .article-3,
+      .article-4,
+      .article-5,
+      .article-6 {
+        width: 141px;
+        height: 230px;
+        font-size: 9px;
+      }
+      .article-2,
+      .article-4,
+      .article-6 {
+        padding-top: 40px;
+      }
+      .article-1,
+      .article-3 {
+        padding-bottom: 40px;
+      }
+      .lower {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      @media (min-width: 768px) {
+        img {
+          width: 220px;
+          height: 288px;
+        }
+        .upper {
+          display: flex;
+          justify-content: space-evenly;
+        }
+        .lower {
+          display: grid;
+          grid-template-columns: 217px 217px 220px;
+          justify-content: space-evenly;
+          margin-top: 30px;
+        }
+        .image {
+          position: absolute;
+        }
+        .content {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 27px;
+          width: 439px;
+          height: 87px;
+          left: 736px;
+          top: 147px;
+        }
+        .crew {
+          margin-top: 20px;
+          width: 278px;
+          height: 47px;
+          left: 243px;
+          top: 110px;
+        }
+        .side {
+          position: relative;
+          transform: rotate(90deg);
+          left: 121px;
+          top: -198px;
+          font-family: PT Serif;
+          font-style: normal;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+        .article-2 {
+          margin-top: 50px;
+          margin-bottom: 30px;
+        }
+        .article-5 {
+          margin-top: 110px;
+        }
+        .article-1,
+        .article-2,
+        .article-3,
+        .article-4,
+        .article-5,
+        .article-6 {
+          width: 257px;
+          height: 267px;
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="upper">
+        <div class="crew">The creative crew</div>
+        <div id="content">
+          <div class="heading">who are we</div>
+          <div class="content">
+            We are team of creatively diverse. driven. innovative individuals
+            working in various locations from the world.
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="article-1">
+          <div class="image">
+            <img src="./photo1.png" alt="" />
+            <p class="side">product owner</p>
+            <p class="tag">Bill Mahoney</p>
+          </div>
+        </div>
+        <div class="article-2">
+          <div class="image">
+            <img src="./photo2.png" alt="" />
+            <p class="side">art director</p>
+            <p class="tag">Bill Mahoney</p>
+          </div>
+        </div>
+        <div class="article-3">
+          <div class="image">
+            <img src="./photo3.png" alt="" />
+            <p class="side">techlead</p>
+            <p class="tag">Bill Mahoney</p>
+          </div>
+        </div>
+        <div class="article-4">
+          <div class="image">
+            <img src="./photo4.png" alt="" />
+            <p class="side">ux designer</p>
+            <p class="tag">Bill Mahoney</p>
+          </div>
+        </div>
+        <div class="article-5">
+          <div class="image">
+            <img src="./photo5.png" alt="" />
+            <p class="side">developer</p>
+            <p class="tag">Bill Mahoney</p>
+          </div>
+        </div>
+        <div class="article-6">
+          <div class="image">
+            <img src="./photo6.png" alt="" />
+            <p class="side">developer</p>
+            <p class="tag">Bill Mahoney</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
